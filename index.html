@@ -30,17 +30,31 @@
 		<div>
 		<form action="">
   <div class="input-field">
-    <input type="text" id="name" required />
+    <input type="email" id="name" required />
     <label for="name">Email</label>
     </div><br/>
     <div class="input-field">
     <input type="password" id="password" required />
     <label for="password">Password</label>
   </div><br/>
-  <button class="btn">Login</button>
+  <button class="btn" id="btn">Login</button>
 </form>
 <div>
 	<div><p>Forgot Password</p></div>
 	<!--form-end-->
 </body>
+<script type="text/javascript">
+	var btn=document.getElementById('btn')
+	var password=document.getElementById('password').value
+	var name=document.getElementById('name')
+
+	if(password!==5){
+		console.log("Your password is not strong enough")
+	}
+	else{
+	btn.addEventListener("submit",function(){
+		alert("Welcome " + name)
+	})
+}
+</script>
 </html>
