@@ -6,7 +6,7 @@ body,html{
 }
 /*nav*/
 nav div{
-    background-color:navy;
+    background-color:#1a237e;
     color:white;
     padding:1px;
     font-size:20px;
@@ -36,7 +36,7 @@ header img{
     margin-bottom:15px;
 }
 header  div b{
-    color:navy;
+    color:#1a237e;
     font-size:25px;
     font-weight:bolder;
 }
@@ -77,13 +77,13 @@ input:invalid {
 }
 input:focus,
 input:valid {
-  border-color: navy;
+  border-color: #1a237e;
 }
 input:focus~label,
 input:valid~label {
   font-size: 14px;
   top: -24px;
-  color: navy;
+  color: #1a237e;
 }
 @media only screen and (min-width:680px){
 div>form{
@@ -110,6 +110,8 @@ div>form{
   padding:7px;
   margin-top:5px;
   color:white;
+  text-transform: uppercase;
+  font-weight:bold;
   border:none;
   text-align:center;
   margin-bottom:10px;
